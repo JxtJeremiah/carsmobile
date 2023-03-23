@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.div1{
+    /* height: 100vh; */
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+.logo{
+    margin-left: 3%;
+    margin-top: 1%;
+    height: 70px;
+    width: 70px;
+    border-style: none;
+    border-radius: 50%;
+}
+.menu{
+    height: 8%;
+    background-color: red;
+    text-align: right;
+    font-weight: 900;
+    font-family: arial;
+    padding-top: 1%;
+    padding-right: 7%;
+    padding-bottom: 1%;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+.menu a:active{
+    color: rgb(5, 63, 255);
+}
+.div3{
+    height: 200px;
+    width: 100%;
+    background-image: url('../images/multiplevehicles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ford{
+    height: 200px;
+    width: 300px;
+    border: 3px solid #ddd;
+}
+.gwagon{
+    height: 200px;
+    width: 300px;
+    border: 3px solid #ddd;
+}
+.rolls{
+    height: 200px;
+    width: 300px;
+    border: 3px solid #ddd;
+}
+.div4{
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+    margin: 0 60px;
+}
+.blog{
+    text-align: center;
+    text-shadow: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+    font-style: oblique;
+}
+.blog a{
+    text-decoration: none;
+    color: red;
+}
+.blog a:hover{
+    color: rgb(255, 243, 80);
+}
+.blog a:active{
+    color: aqua;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(21, 180, 0);
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
+footer a:hover{
+    color: blue;
+}
